@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Sign Up Page
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+    <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/signup.css"/>
+
+    <style>
+        table, th, td {
+            border: 0px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="head">
+        <b>Welcome to Kriova</b>
+    </div>
+    
+        <table class="center container">
+            <thead>
+                <tr>
+                  <th>
+                    <div class="heading">
+                        To Sign Up
+                    </div>
+                  </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">Please enter the details correctly</h4>
+                        </div>
+                    </td>
+                </tr>
+                    
+                <tr>
+                    <div class="row mt-2">
+                        <tr>
+                            <td>
+                                <div class="col-md-6"  name="empDetail" method="post" action="empDetail.php">
+                                    <label class="labels">Name</label>
+                                    <input type="text" name="empName" id="empName" class="form-control" placeholder="enter your name" value="">
+                                </div>
+                            </td>
+                        </tr>
+                    </div>
+                </tr>
+                    
+                <tr>
+                        <td>
+                        <div class="row mt-3">
+                        <tr>
+                            <td>
+                                <div class="col-md-12"  name="empDetail" method="post" action="empDetail.php">
+                                    <label class="labels">Email</label>
+                                    <input type="text" name="empEmail" id="empEmail" class="form-control" placeholder="enter your email/phone number" value="">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="col-md-12"  name="empDetail" method="post" action="empDetail.php">
+                                    <label class="labels">Password</label>
+                                    <input type="password" name="empPassword" id="empPassword" class="form-control" placeholder="enter password" value="">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="col-md-12"  name="empDetail" method="post" action="empDetail.php">
+                                    <label class="labels">Confirm Password</label>
+                                    <input type="password" name="empPassword" id="empPassword" class="form-control" placeholder="confirm password" value="">
+                                </div>
+                            </td>
+                        </tr>
+                        </div>
+                        </td>
+                </tr>
+                
+                <tr>
+                        <td>
+                            <div class="mt-5 text-center">
+                            <button class="btn btn-primary profile-button" type="button"  name="empDetail" method="post" action="empDetail.php">Sign Up</button>
+                            </div>
+                        </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="footer">
+            <div class="page-container footer-container">
+                <div class="footer-copyright">© 2022 Copyright Kriova </div>
+            </div>
+        </div>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+
+</body>
+
+</html>
